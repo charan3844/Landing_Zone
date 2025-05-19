@@ -1,13 +1,8 @@
-# Ignore Terraform state files
-*.tfstate
-*.tfstate.*
+User_Onboard_SPN/.terraform.lock.hcl
+User_Onboard_SPN/terraform.tfstate
+User_Onboard_SPN/terraform.tfstate.backup
 
-# Ignore the .terraform directory (plugin downloads, etc.)
-.terraform/
 
-# Ignore lock file
-.terraform.lock.hcl
-
-# Optional: Ignore crash logs and plan files
-crash.log
-*.tfplan
+Policy/.terraform.lock.hcl
+Policy/terraform.tfstate
+Policy/terraform.tfstate.backup
